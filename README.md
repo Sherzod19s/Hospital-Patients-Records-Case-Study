@@ -33,12 +33,12 @@ This project was developed as part of a healthcare analytics consulting engageme
 
 The dataset includes synthetic healthcare records with the following key tables:
 
-| Table | Description | Key Columns |
-|-------|-------------|-------------|
-| `encounters` | Patient encounter records | `Id`, `START`, `STOP`, `PATIENT`, `PAYER`, `ENCOUNTERCLASS`, `BASE_ENCOUNTER_COST`, `TOTAL_CLAIM_COST`, `PAYER_COVERAGE` |
-| `procedures` | Medical procedures performed | `DESCRIPTION`, `BASE_COST`, `PATIENT`, `ENCOUNTER` |
-| `patients` | Demographic information | `Id`, `BIRTHDATE`, `GENDER`, `RACE`, `ETHNICITY` |
-| `payers` | Insurance provider details | `Id`, `NAME`, `OWNERSHIP` |
+| Table | Description |
+|-------|-------------|
+| `encounters` | Patient encounter records |
+| `procedures` | Medical procedures performed |
+| `patients` | Demographic information |
+| `payers` | Insurance provider details |
 
 **Sample Encounter Columns:**
 ```python
